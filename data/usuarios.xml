@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <usuarios xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="usuarios.xsd">
     <usuario>
-        <username>profe_ftw</username>
-        <password>veracruz123</password>
+        <username>usuario1</username>
+        <password>magico123</password>
     </usuario>
 </usuarios>
