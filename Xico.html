@@ -1,128 +1,130 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Xico - Pueblos Mágicos de Veracruz</title>
-</head>
-<body>
-    <header>
-        <h1>Pueblos Mágicos de Veracruz</h1>
-    </header>
-    
-    <nav aria-label="Menú principal">
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="Orizaba.html">Orizaba</a></li>
-            <li><a href="Naolinco.html">Naolinco</a></li>
-            <li><a href="Xico.html">Xico</a></li>
-            <li><a href="Coatepec.html">Coatepec</a></li>
-            <li><a href="Coscomatepec.html">Coscomatepec</a></li>
-            <li><a href="Papantla.html">Papantla</a></li>
-            <li><a href="registro.html">Registrarme</a></li>
-            <li><a href="login.html">Iniciar Sesión</a></li>
-        </ul>
-    </nav>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Xico - Pueblos Mágicos de Veracruz</title>
 
-    <main>
-        <section id="hero-pueblo">
-            <h2>Xico</h2>
-        </section>
-
-        <nav aria-label="Navegación interna del pueblo">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Pueblos Mágicos de Veracruz</h1>
+        </header>
+        
+        <nav aria-label="Menú principal">
             <ul>
-                <li><a href="#historia">Historia</a></li>
-                <li><a href="#turismo">Turismo</a></li>
-                <li><a href="#eventos">Eventos</a></li>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="Orizaba.html">Orizaba</a></li>
+                <li><a href="Naolinco.html">Naolinco</a></li>
+                <li><a href="Xico.html">Xico</a></li>
+                <li><a href="Coatepec.html">Coatepec</a></li>
+                <li><a href="Coscomatepec.html">Coscomatepec</a></li>
+                <li><a href="Papantla.html">Papantla</a></li>
+                <li><a href="registro.html">Registrarme</a></li>
+                <li><a href="login.html">Iniciar Sesión</a></li>
             </ul>
         </nav>
 
-        <section id="historia">
-            <h2>Historia</h2>
-            <div>
-                <img src="img/Xico/Historia-Xico.jpg" alt="Capilla de Xico">
-                <p>Xico, la puerta a la montaña, es famoso por su mole, su café y su fervor religioso. Un lugar donde la magia se siente en el aire. Lorem ipsum dolor sit amet...</p>
-            </div>
-        </section>
+        <main>
+            <section id="hero-pueblo">
+                <h2>Xico</h2>
+            </section>
 
-        <section id="turismo">
-            <h2>Turismo</h2>
-            <div class="contenedor-grid">
-                <article class="tarjeta-interactiva">
-                    <img src="img/Xico/Turismo-Cascada-Xico.jpg" alt="Cascada de Texolo en medio de la selva">
-                    <div class="texto-oculto">
-                        <h3>Cascada de Texolo</h3>
-                        <p>Una impresionante caída de agua rodeada de fincas cafetaleras.</p>
-                    </div>
-                </article>
-                <article class="tarjeta-interactiva">
-                    <img src="img/Xico/Turismo-Vestidos-Xico.jpg" alt="Museo del Vestido de Santa María Magdalena">
-                    <div class="texto-oculto">
-                        <h3>Museo del Vestido</h3>
-                        <p>Conoce la colección de vestidos ofrendados a la Santa Patrona.</p>
-                    </div>
-                </article>
-                <article class="tarjeta-interactiva">
-                    <img src="img/Xico/Turismo-Gastronomia-Xico.jpg" alt="Platillo tradicional de mole xiqueño">
-                    <div class="texto-oculto">
-                        <h3>Ruta Gastronómica</h3>
-                        <p>Prueba el auténtico mole xiqueño y el pan de huevo.</p>
-                    </div>
-                </article>
-            </div>
-        </section>
-        
-        <section id="directorio">
-            <h2>Directorio de atracciones</h2>
+            <nav aria-label="Navegación interna del pueblo">
+                <ul>
+                    <li><a href="#historia">Historia</a></li>
+                    <li><a href="#turismo">Turismo</a></li>
+                    <li><a href="#eventos">Eventos</a></li>
+                </ul>
+            </nav>
 
-            <div style="margin-bottom: 15px;">
-                <label for="filtro-categoria">Filtrar por categoria:</label>
-                <select id="filtro-categoria">
-                    <option value="Todas">Todas</option>
-                    <option value="Cultural">Cultural</option>
-                    <option value="Naturaleza">Naturaleza</option>
-                    <option value="Entretenimiento">Entretenimiento</option>
-                </select>
-            </div>
+            <section id="historia">
+                <h2>Historia</h2>
+                <div>
+                    <img src="img/Xico/Historia-Xico.jpg" alt="Capilla de Xico">
+                    <p>Xico, la puerta a la montaña, es famoso por su mole, su café y su fervor religioso. Un lugar donde la magia se siente en el aire. Lorem ipsum dolor sit amet...</p>
+                </div>
+            </section>
 
-            <table id="tabla-directorio" border="1" style="width: 100%; text-align: left;">
-                <thead>
-                    <tr>
-                        <th>Nombre</th>
-                        <th>Categoria</th>
-                        <th>Descripción</th>
-                    </tr>
-                </thead>
-                <tbody>
-                </tbody>
-            </table>
-        </section>
+            <section id="turismo">
+                <h2>Turismo</h2>
+                <div class="contenedor-grid">
+                    <article class="tarjeta-interactiva">
+                        <img src="img/Xico/Turismo-Cascada-Xico.jpg" alt="Cascada de Texolo en medio de la selva">
+                        <div class="texto-oculto">
+                            <h3>Cascada de Texolo</h3>
+                            <p>Una impresionante caída de agua rodeada de fincas cafetaleras.</p>
+                        </div>
+                    </article>
+                    <article class="tarjeta-interactiva">
+                        <img src="img/Xico/Turismo-Vestidos-Xico.jpg" alt="Museo del Vestido de Santa María Magdalena">
+                        <div class="texto-oculto">
+                            <h3>Museo del Vestido</h3>
+                            <p>Conoce la colección de vestidos ofrendados a la Santa Patrona.</p>
+                        </div>
+                    </article>
+                    <article class="tarjeta-interactiva">
+                        <img src="img/Xico/Turismo-Gastronomia-Xico.jpg" alt="Platillo tradicional de mole xiqueño">
+                        <div class="texto-oculto">
+                            <h3>Ruta Gastronómica</h3>
+                            <p>Prueba el auténtico mole xiqueño y el pan de huevo.</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            
+            <section id="directorio">
+                <h2>Directorio de atracciones</h2>
 
-        <section id="eventos">
-            <h2>Eventos</h2>
-            <div class="contenedor-grid">
-                <article class="tarjeta-interactiva">
-                    <img src="img/Xico/Eventos-Magdalena-Xico.jpg" alt="Alfombras de aserrín en las calles de Xico">
-                    <div class="texto-oculto">
-                        <h3>Fiestas de la Magdalena</h3>
-                        <p>Calles adornadas con monumentales alfombras de aserrín.</p>
-                    </div>
-                </article>
-                <article class="tarjeta-interactiva">
-                    <img src="img/Xico/Eventos-Toritos-Xico.jpg" alt="Quema de toritos pirotécnicos">
-                    <div class="texto-oculto">
-                        <h3>Quema de Toritos</h3>
-                        <p>La noche se ilumina con la tradición pirotécnica del pueblo.</p>
-                    </div>
-                </article>
-            </div>
-        </section>
-    </main>
+                <div style="margin-bottom: 15px;">
+                    <label for="filtro-categoria">Filtrar por categoria:</label>
+                    <select id="filtro-categoria">
+                        <option value="Todas">Todas</option>
+                        <option value="Cultural">Cultural</option>
+                        <option value="Naturaleza">Naturaleza</option>
+                        <option value="Entretenimiento">Entretenimiento</option>
+                    </select>
+                </div>
 
-    <footer>
-        <p>&copy; 2026 - Proyecto de Fundamentos de Tecnologías Web</p>
-    </footer>
+                <table id="tabla-directorio" border="1" style="width: 100%; text-align: left;">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Categoria</th>
+                            <th>Descripción</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </section>
 
-    <script src="js/app.js"></script>
-</body>
+            <section id="eventos">
+                <h2>Eventos</h2>
+                <div class="contenedor-grid">
+                    <article class="tarjeta-interactiva">
+                        <img src="img/Xico/Eventos-Magdalena-Xico.jpg" alt="Alfombras de aserrín en las calles de Xico">
+                        <div class="texto-oculto">
+                            <h3>Fiestas de la Magdalena</h3>
+                            <p>Calles adornadas con monumentales alfombras de aserrín.</p>
+                        </div>
+                    </article>
+                    <article class="tarjeta-interactiva">
+                        <img src="img/Xico/Eventos-Toritos-Xico.jpg" alt="Quema de toritos pirotécnicos">
+                        <div class="texto-oculto">
+                            <h3>Quema de Toritos</h3>
+                            <p>La noche se ilumina con la tradición pirotécnica del pueblo.</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 - Proyecto de Fundamentos de Tecnologías Web</p>
+        </footer>
+
+        <script src="js/app.js"></script>
+    </body>
 </html>
