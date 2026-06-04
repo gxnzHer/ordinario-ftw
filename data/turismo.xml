@@ -2,7 +2,7 @@
 <destinos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="turismo.xsd">
     <lugar>
         <pueblo>Orizaba</pueblo>
-        <categoria>Turismo</categoria>
+        <categoria>Diversion</categoria>
         <nombre>Teleférico</nombre>
         <descripcion>Sube al Cerro del Borrego y disfruta de la mejor vista de la ciudad.</descripcion>
         <imagen_url>img/Orizaba/Turismo-Teleferico-Orizaba.jpg</imagen_url>
@@ -10,7 +10,7 @@
 
     <lugar>
         <pueblo>Orizaba</pueblo>
-        <categoria>Eventos</categoria>
+        <categoria>Cultural</categoria>
         <nombre>Feria Expori</nombre>
         <descripcion>La feria más importante de la región con exposiciones y juegos.</descripcion>
         <imagen_url>img/Orizaba/Eventos-Expori-Orizaba.jpg</imagen_url>
