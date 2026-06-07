@@ -6,21 +6,21 @@
         <categoria>Entretenimiento</categoria>
         <nombre>Teleférico</nombre>
         <descripcion>Sube al Cerro del Borrego y disfruta de la mejor vista de la ciudad.</descripcion>
-        <imagen_url>img/Orizaba/Turismo-Teleferico-Orizaba.jpg</imagen_url>
+        <imagen_url>Sin Imagen</imagen_url>
     </lugar>
     <lugar>
         <pueblo>Orizaba</pueblo>
         <categoria>Cultural</categoria>
         <nombre>Poliforum Mier y Pesado</nombre>
         <descripcion>Un castillo que hoy alberga museos y jardines hermosos.</descripcion>
-        <imagen_url>img/Orizaba/Turismo-MierYPesado-Orizaba.jpg</imagen_url>
+        <imagen_url>Sin Imagen</imagen_url>
     </lugar>
     <lugar>
         <pueblo>Orizaba</pueblo>
         <categoria>Naturaleza</categoria>
         <nombre>Paseo del Río</nombre>
         <descripcion>Camina junto al río y conoce la reserva animal única en su tipo.</descripcion>
-        <imagen_url>img/Orizaba/Turismo-PaseoDelRio-Orizaba.jpg</imagen_url>
+        <imagen_url>Sin Imagen</imagen_url>
     </lugar>
 
     <lugar>
@@ -28,21 +28,21 @@
         <categoria>Cultural</categoria>
         <nombre>Museo del Café</nombre>
         <descripcion>Descubre el proceso artesanal desde el grano hasta tu taza.</descripcion>
-        <imagen_url>img/Coatepec/Turismo-MuseoDelCafe-Coatepec.jpg</imagen_url>
+        <imagen_url>Sin Imagen</imagen_url>
     </lugar>
     <lugar>
         <pueblo>Coatepec</pueblo>
         <categoria>Naturaleza</categoria>
         <nombre>Cascada Bola De Oro</nombre>
         <descripcion>Ideal para el senderismo y apreciar la naturaleza a minutos del centro.</descripcion>
-        <imagen_url>img/Coatepec/Turismo-Cascada-Coatepec.jpg</imagen_url>
+        <imagen_url>Sin Imagen</imagen_url>
     </lugar>
     <lugar>
         <pueblo>Coatepec</pueblo>
         <categoria>Entretenimiento</categoria>
         <nombre>Feria Del Café</nombre>
         <descripcion>¡Conciertos, exposiciones, café y mucho más!</descripcion>
-        <imagen_url>img/Coatepec/Eventos-FeriaDelCafe-Ecatepec.jpg</imagen_url>
+        <imagen_url>Sin Imagen</imagen_url>
     </lugar>
 
     <lugar>
@@ -50,21 +50,21 @@
         <categoria>Cultural</categoria>
         <nombre>Calle de las Zapaterías</nombre>
         <descripcion>Encuentra el mejor calzado y artículos de piel hechos a mano.</descripcion>
-        <imagen_url>img/Naolinco/Turismo-Zapaterias-Naolinco.jpg</imagen_url>
+        <imagen_url>Sin Imagen</imagen_url>
     </lugar>
     <lugar>
         <pueblo>Naolinco</pueblo>
         <categoria>Naturaleza</categoria>
         <nombre>Mirador de la Cascada</nombre>
         <descripcion>Una vista espectacular de la caída de agua y la vegetación.</descripcion>
-        <imagen_url>img/Naolinco/Turismo-Mirador-Naolinco.jpg</imagen_url>
+        <imagen_url>Sin Imagen</imagen_url>
     </lugar>
     <lugar>
         <pueblo>Naolinco</pueblo>
         <categoria>Cultural</categoria>
         <nombre>La Cantada</nombre>
         <descripcion>Una tradición única de Día de Muertos llena de cantos y altares.</descripcion>
-        <imagen_url>img/Naolinco/Eventos-Cantada-Naolinco.jpg</imagen_url>
+        <imagen_url>Sin Imagen</imagen_url>
     </lugar>
 
     <lugar>
@@ -72,21 +72,21 @@
         <categoria>Naturaleza</categoria>
         <nombre>Cascada de Texolo</nombre>
         <descripcion>Una impresionante caída de agua rodeada de fincas cafetaleras.</descripcion>
-        <imagen_url>img/Xico/Turismo-Cascada-Xico.jpg</imagen_url>
+        <imagen_url>Sin Imagen</imagen_url>
     </lugar>
     <lugar>
         <pueblo>Xico</pueblo>
         <categoria>Cultural</categoria>
         <nombre>Museo del Vestido</nombre>
         <descripcion>Conoce la colección de vestidos ofrendados a la Santa Patrona.</descripcion>
-        <imagen_url>img/Xico/Turismo-Vestidos-Xico.jpg</imagen_url>
+        <imagen_url>Sin imagen</imagen_url>
     </lugar>
     <lugar>
         <pueblo>Xico</pueblo>
         <categoria>Entretenimiento</categoria>
         <nombre>Fiestas de la Magdalena</nombre>
         <descripcion>Calles adornadas con monumentales alfombras de aserrín y toritos.</descripcion>
-        <imagen_url>img/Xico/Eventos-Magdalena-Xico.jpg</imagen_url>
+        <imagen_url>Sin imagen</imagen_url>
     </lugar>
 
     <lugar>
@@ -94,21 +94,21 @@
         <categoria>Naturaleza</categoria>
         <nombre>Parque Nacional Pico de Orizaba</nombre>
         <descripcion>Punto de partida ideal para montañistas y amantes del ecoturismo.</descripcion>
-        <imagen_url>img/Coscomatepec/Turismo-ParqueNacional-Cosco.jpg</imagen_url>
+        <imagen_url>Sin Imagen</imagen_url>
     </lugar>
     <lugar>
         <pueblo>Coscomatepec</pueblo>
         <categoria>Cultural</categoria>
         <nombre>Panaderías Tradicionales</nombre>
         <descripcion>Degusta el famoso pan horneado a la leña, orgullo del pueblo.</descripcion>
-        <imagen_url>img/Coscomatepec/Turimos-Panaderias-Cosco.jpg</imagen_url>
+        <imagen_url>Sin Imagen</imagen_url>
     </lugar>
     <lugar>
         <pueblo>Coscomatepec</pueblo>
         <categoria>Entretenimiento</categoria>
         <nombre>Ruptura del Sitio</nombre>
         <descripcion>Representación cívico-militar de la histórica hazaña independentista.</descripcion>
-        <imagen_url>img/Coscomatepec/Eventos-Sitio-Cosco.jpg</imagen_url>
+        <imagen_url>Sin Imagen</imagen_url>
     </lugar>
 
     <lugar>
@@ -116,21 +116,21 @@
         <categoria>Cultural</categoria>
         <nombre>Zona Arqueológica El Tajín</nombre>
         <descripcion>La antigua capital totonaca y Patrimonio de la Humanidad.</descripcion>
-        <imagen_url>img/Papantla/Turismo-Tajin-Papantla.jpg</imagen_url>
+        <imagen_url>Sin Imagen</imagen_url>
     </lugar>
     <lugar>
         <pueblo>Papantla</pueblo>
         <categoria>Naturaleza</categoria>
         <nombre>Beneficios de Vainilla</nombre>
         <descripcion>Aprende sobre el cultivo y secado de esta preciada orquídea.</descripcion>
-        <imagen_url>img/Papantla/Turismo-Vainilla-Papantla.jpg</imagen_url>
+        <imagen_url>Sin Imagen</imagen_url>
     </lugar>
     <lugar>
         <pueblo>Papantla</pueblo>
         <categoria>Entretenimiento</categoria>
         <nombre>Ceremonia de Voladores</nombre>
         <descripcion>Un ritual ancestral de petición a los dioses para la fertilidad.</descripcion>
-        <imagen_url>img/Papantla/Eventos-Voladores-Papantla.jpg</imagen_url>
+        <imagen_url>Sin Imagen</imagen_url>
     </lugar>
 
 </destinos>
