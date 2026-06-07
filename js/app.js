@@ -46,7 +46,7 @@ if (formLogin) {
 
 const tablaDirectorio = document.getElementById('tabla-directorio');
 const filtroCategoria = document.getElementById('filtro-categoria');
-const heroPueblo = document.getElementById('hero-pueblo'); 
+const heroPueblo = document.querySelector('.hero-pueblo');
 
 if (tablaDirectorio && heroPueblo) {
     
