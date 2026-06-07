@@ -43,3 +43,64 @@ if (formLogin) {
             });
     });
 }
+
+const tablaDirectorio = document.getElementById('tabla-directorio');
+const filtroCategoria = document.getElementById('filtro-categoria');
+const heroPueblo = document.getElementById('hero-pueblo'); 
+
+if (tablaDirectorio && heroPueblo) {
+    
+    const puebloActual = heroPueblo.querySelector('h2').textContent.trim();
+    let datosOriginalesXML = []; 
+
+    fetch('data/turismo.xml')
+        .then(respuesta => respuesta.text())
+        .then(textoXML => {
+            const parser = new DOMParser();
+            const xmlDoc = parser.parseFromString(textoXML, 'text/xml');
+            const lugares = xmlDoc.getElementsByTagName('lugar');
+
+            for (let i = 0; i < lugares.length; i++) {
+                const puebloXML = lugares[i].getElementsByTagName('pueblo')[0].textContent;
+                
+                if (puebloXML === puebloActual) {
+                    datosOriginalesXML.push({
+                        categoria: lugares[i].getElementsByTagName('categoria')[0].textContent,
+                        nombre: lugares[i].getElementsByTagName('nombre')[0].textContent,
+                        descripcion: lugares[i].getElementsByTagName('descripcion')[0].textContent
+                    });
+                }
+            }
+
+            renderizarTabla(datosOriginalesXML);
+        })
+        .catch(error => console.error("Error al cargar turismo.xml:", error));
+
+    function renderizarTabla(datos) {
+        const tbody = tablaDirectorio.querySelector('tbody');
+        tbody.innerHTML = ''; 
+        
+        datos.forEach(lugar => {
+            const fila = document.createElement('tr');
+            fila.innerHTML = `
+                <td><strong>${lugar.nombre}</strong></td>
+                <td>${lugar.categoria}</td>
+                <td>${lugar.descripcion}</td>
+            `;
+            tbody.appendChild(fila);
+        });
+    }
+
+    if (filtroCategoria) {
+        filtroCategoria.addEventListener('change', function(evento) {
+            const categoriaSeleccionada = evento.target.value;
+            
+            if (categoriaSeleccionada === "Todas") {
+                renderizarTabla(datosOriginalesXML);
+            } else {
+                const datosFiltrados = datosOriginalesXML.filter(lugar => lugar.categoria === categoriaSeleccionada);
+                renderizarTabla(datosFiltrados);
+            }
+        });
+    }
+}
